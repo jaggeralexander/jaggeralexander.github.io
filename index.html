@@ -3,154 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jagger Alexander</title>
+    <title>Jagger Alexander's Website</title>
     <style>
-        /* General Reset */
-        * {
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            background-color: #f5f5f5; /* Neutral background */
+            color: #333; /* Neutral text color */
         }
-
-        body {
-            font-family: 'Roboto', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #fff;
-            margin: 0;
-        }
-
         header {
-            background-color: #1a73e8; /* Modern blue */
+            background-color: #4a5d23; /* Olive green */
             color: #fff;
-            padding: 2rem 0;
+            padding: 1rem;
             text-align: center;
         }
-
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: 500;
-        }
-
         .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 1rem;
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem;
+            padding-bottom: 5rem; /* Added space for the footer */
         }
-
         .headshot {
-            border-radius: 50%;
             width: 150px;
             height: 150px;
             object-fit: cover;
-            border: 4px solid #1a73e8;
+            border: 3px solid #4a5d23; /* Olive green border */
             float: left;
-            margin-right: 1.5rem;
+            margin-right: 1rem; /* Space between image and text */
         }
-
         h2 {
-            font-size: 1.8rem;
-            color: #1a73e8;
-            border-bottom: 3px solid #1a73e8;
+            color: #4a5d23; /* Olive green */
+            border-bottom: 2px solid #4a5d23;
             padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
         }
-
-        section {
-            margin-bottom: 2rem;
-        }
-
-        .card {
-            background-color: #f8f9fa; /* Light gray background */
-            padding: 1.5rem;
+        .publications, .presentations, .teaching-experience {
+            margin: 2rem 0;
+            background-color: #dcdcdc; /* Light neutral background */
+            padding: 1rem;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1.5rem;
         }
-
         a {
-            color: #1a73e8;
+            color: #4a5d23; /* Olive green */
             text-decoration: none;
         }
-
         a:hover {
             text-decoration: underline;
         }
-
         footer {
-            background-color: #1a73e8;
+            background-color: #4a5d23; /* Olive green */
             color: #fff;
             text-align: center;
-            padding: 1rem 0;
-            position: relative;
-            margin-top: 2rem;
-        }
-
-        footer p {
-            font-size: 0.9rem;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Jagger Alexander</h1>
+        <h1>Jagger Alexander's Website</h1>
     </header>
     <div class="container">
         <!-- About Me Section -->
         <section>
             <h2>About Me</h2>
-            <div>
+            <div style="overflow: auto;">
                 <img src="Headshot.jpg" alt="Jagger Alexander" class="headshot">
-                <p>My name is Jagger Alexander. I work to drive meaningful health interventions by analyzing climate and health data with novel statistical and machine learning techniques. I am currently completing my Ph.D. in Geosciences at the University of Texas at Austin. I received my B.S. in Mathematics from Vanderbilt University in 2020 and my M.S. in Climate and Health from the University of Miami in 2021. </p>
+                <p>My name is Jagger Alexander. I work to drive meaningful health interventions by analyzing climate and health data with novel statistical and machine learning techniques. I am currently completing my Ph.D. in Geosciences at the University of Texas at Austin. I received my B.S. in Mathematics from Vanderbilt University in 2020 and my M.S. in Climate and Health from the University of Miami in 2021. I am also proud to be a licensed EMT.</p>
             </div>
         </section>
 
         <!-- Publications Section -->
-        <section>
+        <section class="publications">
             <h2>Publications</h2>
-            <div class="card">
-                <ul>
-		    <li><a
-href="https://doi.org/10.31223/X5142V" target="_blank">
-Decoding sub-seasonal predictors of extreme heat with interpretable machine learning</a> - 2025</li>
-                    <li><a href="https://doi.org/10.1038/s41612-023-00531-y" target="_blank">Accelerated soil drying linked to increasing evaporative demand in wet regions</a> - 2023</li>
-                    <li><a href="https://doi.org/10.1371/journal.pone.0265472" target="_blank">Using machine learning to understand microgeographic determinants of the Zika vector, Aedes aegypti</a> - 2022</li>
-                    <li><a href="https://doi.org/10.1038/s41394-019-0239-z" target="_blank">A bellweather for climate change and disability...</a> - 2019</li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="https://doi.org/10.31223/X5142V" target="_blank">(Pre-print) Decoding sub-seasonal predictors of extreme heat with interpretable machine learning</a> - 2025</li>
+                <li><a href="https://doi.org/10.1038/s41612-023-00531-y" target="_blank">Accelerated soil drying linked to increasing evaporative demand in wet regions</a> - 2023</li>
+                <li><a href="https://doi.org/10.1371/journal.pone.0265472" target="_blank">Using machine learning to understand microgeographic determinants of the Zika vector, Aedes aegypti</a> - 2022</li>
+                <li><a href="https://doi.org/10.1038/s41394-019-0239-z" target="_blank">A bellweather for climate change and disability: educational needs of rehabilitation professionals regarding disasters and spinal cord injuries</a> - 2019</li>
+                <li><a href="https://doi.org/10.1371/journal.pone.0201962" target="_blank">Effects of climate on dental mesowear of extant koalas and two broadly distributed kangaroos throughout their geographic range</a> - 2019</li>
+                <li><a href="https://doi.org/10.1038/s41394-019-0228-2" target="_blank">Assessing the ability of the Sacral Autonomic Standards to document bladder and bowel function based upon the Asia Impairment Scale</a> - 2018</li>
+            </ul>
         </section>
 
         <!-- Presentations Section -->
-        <section>
+        <section class="presentations">
             <h2>Presentations</h2>
-            <div class="card">
-                <ul>
-		    <li><strong>Extending heat wave forecasts using interpretable machine learning</strong> - 2025. Presented at AMS Annual Meeting.</li>
-                    <li><strong>Visualizing natural hazard vulnerability and impact</strong> - 2023. Presented at AGU Fall Meeting.</li>
-                    <li><strong>Weather Conditions and COVID-19 Incidence in Florida</strong> - 2022. Presented at UM Climate and Health Symposium.</li>
-                </ul>
-            </div>
+            <ul>
+                <li><strong>Extending heat wave forecasts using interpretable machine learning</strong> - 2025. Presented at AMS Annual Meeting.</li>
+                <li><strong>Visualizing natural hazard vulnerability and impact</strong> - 2023. Presented at Climate and Health Conference 2023 at Zucker School of Medicine in Hempstead, NY and American Geophysical Union Fall Meeting in San Francisco, CA.</li>
+                <li><strong>Weather Conditions and COVID-19 Incidence in Florida – Machine Learning and Classical Approaches</strong> - 2022. Presented at University of Miami Climate and Health Symposium in Miami, FL.</li>
+            </ul>
         </section>
 
         <!-- Teaching Experience Section -->
-        <section>
+        <section class="teaching-experience">
             <h2>Teaching Experience</h2>
-            <div class="card">
-                <ul>
-                    <li><strong>GEO110T Geoscience Math Tutorial</strong></li>
-                    <li><strong>GEO302 Climate: Past, Present, and Future</strong></li>
-                </ul>
-            </div>
+            <ul>
+                <li><strong>GEO110T Geoscience Math Tutorial</strong> - Developed and taught a tutorial course focused on applying mathematical concepts to geoscience problems.</li>
+                <li><strong>GEO302 Climate: Past, Present, and Future</strong> - Designed and delivered lectures and lab sessions on the historical and future aspects of climate science.</li>
+            </ul>
         </section>
 
         <!-- CV Link Section -->
         <section>
             <h2>CV</h2>
-            <p>Download my <a href="JaggerAlexanderCV.pdf" target="_blank">CV</a> to learn more. </p>
+            <p>Download my <a href="JaggerAlexanderCV.pdf" target="_blank">CV</a> to learn more.</p>
         </section>
     </div>
-
     <footer>
         <p>&copy; 2024 Jagger Alexander</p>
     </footer>
