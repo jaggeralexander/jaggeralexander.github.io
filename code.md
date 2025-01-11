@@ -1,3 +1,9 @@
+---
+layout: default
+title: Code
+permalink: /code/
+---
+
 # Code
 
 Here are some of the code projects I've worked on. You can access and download the code by clicking on the links below:
