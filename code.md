@@ -1,4 +1,4 @@
-# My Code Projects
+# Code
 
 Here are some of the code projects I've worked on. You can access and download the code by clicking on the links below:
 
@@ -6,7 +6,7 @@ Here are some of the code projects I've worked on. You can access and download t
 
 These Python scripts uses machine learning to analyze the predictive strength of different meteorological, atmospheric, ocean, soil moisture, and large-scale climate features on heat waves at the subseasonal time scale.
 
-### Data
+### *Data Files*
 
 Necessary data files are available here. Download the individual files below:
 
@@ -18,7 +18,7 @@ Or download the pre-merged file to skip to prediction:
 
 - **[merged data]**
 
-### Data Processing
+### *Data Processing*
 
 Each data file must be processed and merged. Scripts are given below for processing this data.
 
@@ -26,6 +26,6 @@ Each data file must be processed and merged. Scripts are given below for process
   Description: JavaScript code that fetches temperature data and visualizes it on an interactive graph.  
   Download the code: [Raw file](https://github.com/jaggeralexander/jaggeralexander.github.io/raw/main/projects/data-visualization.js)
 
-### Data Analysis and Prediction
+###* Data Analysis and Prediction*
 
 Predict, analyze and visualize with merged data file.
