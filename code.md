@@ -32,6 +32,6 @@ Each data file must be processed and merged. Scripts are given below for process
   Description: JavaScript code that fetches temperature data and visualizes it on an interactive graph.  
   Download the code: [Raw file](https://github.com/jaggeralexander/jaggeralexander.github.io/raw/main/projects/data-visualization.js)
 
-###* Data Analysis and Prediction*
+### *Data Analysis and Prediction*
 
 Predict, analyze and visualize with merged data file.
