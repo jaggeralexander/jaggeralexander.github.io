@@ -16,9 +16,7 @@ These Python scripts uses machine learning to analyze the predictive strength of
 
 Necessary data files are available here. Download the individual files below:
 
-- **[climate-analysis.R](https://github.com/jaggeralexander/jaggeralexander.github.io/blob/main/projects/climate-analysis.R)**  
-  Description: An R script that visualizes climate data over the last century.  
-  Download the code: [Raw file](https://github.com/jaggeralexander/jaggeralexander.github.io/raw/main/projects/climate-analysis.R)
+- **Will be available for download 01/17/25**  
 
 Or download the pre-merged file to skip to prediction:
 
@@ -28,10 +26,8 @@ Or download the pre-merged file to skip to prediction:
 
 Each data file must be processed and merged. Scripts are given below for processing this data.
 
-- **[data-visualization.js](https://github.com/jaggeralexander/jaggeralexander.github.io/blob/main/projects/data-visualization.js)**  
-  Description: JavaScript code that fetches temperature data and visualizes it on an interactive graph.  
-  Download the code: [Raw file](https://github.com/jaggeralexander/jaggeralexander.github.io/raw/main/projects/data-visualization.js)
-
+- **Will be available for download 01/17/25**  
+  
 ### *Data Analysis and Prediction*
 
 Predict, analyze and visualize with merged data file.
