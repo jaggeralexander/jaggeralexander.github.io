@@ -14,20 +14,8 @@ These Python scripts uses machine learning to analyze the predictive strength of
 
 ### *Data Files*
 
-Necessary data files are available here. Download the individual files below:
+- **[merged data](https://jaggeralexander.github.io/Code/city_dfs.pkl)**
 
-- **Will be available for download 01/17/25**  
+### *Main Code*
 
-Or download the pre-merged file to skip to prediction:
-
-- **[merged data]**
-
-### *Data Processing*
-
-Each data file must be processed and merged. Scripts are given below for processing this data.
-
-- **Will be available for download 01/17/25**  
-  
-### *Data Analysis and Prediction*
-
-Predict, analyze and visualize with merged data file.
+- **[HeatWaveDrivers.ipynb](https://jaggeralexander.github.io/Code/HeatWaveDrivers.ipynb)**
