@@ -6,7 +6,7 @@ permalink: /code/
 
 # Code
 
-Here are some of the code projects I've worked on. You can access and download the code by clicking on the links below:
+ You can access data and codes by clicking on the links below:
 
 ## Decoding sub-seasonal drivers of heat waves using machine learning
 
@@ -14,7 +14,7 @@ These Python scripts uses machine learning to analyze the predictive strength of
 
 ### *Data Files*
 
-- **[merged data](https://jaggeralexander.github.io/Code/city_dfs.pkl)**
+- **[City dataframes (Pickle file to load into Python](https://jaggeralexander.github.io/Code/city_dfs.pkl)**
 
 ### *Main Code*
 
